@@ -1,0 +1,14 @@
+DEBUG = True
+SECRET_KEY = '<insert here>'
+API_DB_NAME = '<insert here>'
+API_DB_USER = '<insert here>'
+API_DB_PASSWORD = '<insert here>'
+API_DB_HOST = '<insert here>'
+EMAIL_BACKEND = '<insert here>'
+EMAIL_PORT = '<insert here>'
+EMAIL_HOST = '<insert here>'
+DEFAULT_FROM_EMAIL = '<insert here>'
+DEFAULT_TO_EMAIL = '<insert here>'
+ALLOWED_HOSTS = []
+STATIC_URL = '/static/'
+MEDIA_URL = '/media/'

@@ -1,0 +1,86 @@
+.landBtn {
+    width: 100%;
+    border: 3px solid;
+    position: relative;
+}
+
+.landBtn:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.landBtn.subscription {
+    border-color: #4a92ce;
+}
+
+.landBtn.proj {
+    border-color: #26b693;
+}
+
+.top-triangle {
+    border-left: 60px solid;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+}
+
+.top-triangle.subscription {
+    border-left-color: #4a92ce;
+}
+
+.top-triangle.proj {
+    border-left-color: #26b693;
+}
+
+.bottom-triangle {
+    border-left: 60px solid transparent;
+    border-right: 60px solid;
+    border-top: 60px solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.bottom-triangle.subscription {
+    border-right-color: #4a92ce;
+}
+
+.bottom-triangle.proj {
+    border-right-color: #26b693;
+}
+
+.landBtn .content {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.landBtn .content .title {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.landBtn .content .title.subscription {
+    color: #0d538b;
+}
+
+.landBtn .content .title.proj {
+    color: #26b693;
+}
+
+.btnOpacity {
+    opacity: 0.3;
+}
+
+.mailTo {
+    color: #337ab7 !important;
+    font-size: 16px;
+}

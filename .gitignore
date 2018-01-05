@@ -1,0 +1,15 @@
+.env
+db.sqlite3
+*.pyc
+static/*
+!static/.gitkeep
+media/*
+!media/.gitkeep
+*.swp
+project/settings_local.py
+project/uwsgi.ini
+.idea
+*.sublime-project
+*.sublime-workspace
+geckodriver.log
+venv/
